@@ -5,14 +5,32 @@
 <html>
 <head>
 <style>
-div {
+div  {
   background-color: white; 
   text-align: center;
-  width: 500px;
+  width: 700px;
   border: 15px solid black;
   padding: 20px;
   margin: 20px;
  }
+
+ .flex-container {
+  display: flex;
+  grid-template-columns: 300px;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: FloralWhite;
+}
+
+.flex-container > div {
+  background-color: #FFFAF0;
+  width: 100px;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+}
+
+
 </style>
 
  .
@@ -20,21 +38,36 @@ div {
 <body>
 
 	<h1><div>GUITARS AND PEDALS FOR SALE</div></h1>
-	<p></p>
+	
 
 
 
 
 
-	<div class="grid-container">
-	 <div class="grid-item"></div>
-	 <div class="grid-item"></div>
-	 <div class="grid-item"></div>	
-	 <div class="grid-item"></div>
-	 <div class="grid-item"></div>
-	</div>
+
+
+
+			<!-- This will form the article. Once the pictures have been chosen, the text will hopefully wrap around it. -->
+
+	<p> Come check out the incredible deals on guitars and guitar accessories that are for sale! You can find many world class guitars from companies like Gibson, Fender, Gretsch and many more! </p>
+
+
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div> 
+  <div>4</div>
+  <div>5</div> 
+  <div>6</div>
+</div>
+
+
 
 	
+
+
+
+
 
 </body>
 </html>
