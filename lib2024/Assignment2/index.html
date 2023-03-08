@@ -5,30 +5,72 @@
 <html>
 <head>
 <style>
-div  {
-  background-color: white; 
-  text-align: center;
-  width: 700px;
-  border: 15px solid black;
-  padding: 20px;
-  margin: 20px;
+
+table {
+  width: 100%;
+  margin-top: 20%
+  }
+
+th, td {
+  border: 5px solid;	
+
+}
+
+p {
+
+	font-family: Arial
+
+}
+
+
+h1 {
+
+border-style: solid; 
+border-width: 10px;
+text-align: center; 
+margin-bottom: 5%
+}
+
+#Mascis
+   {
+ shape-outside: circle(50%);
+ width: 250px;
+ height: 250px;
+ float: left;
+
  }
 
- .flex-container {
+.row {
   display: flex;
-  grid-template-columns: 300px;
-  justify-content: center;
   flex-wrap: wrap;
-  background-color: FloralWhite;
+  padding: 0 4px;
 }
 
-.flex-container > div {
-  background-color: #FFFAF0;
-  width: 100px;
-  margin: 10px;
-  padding: 20px;
-  font-size: 30px;
+.column {
+  flex: 50%;
+  padding: 0 4px;
 }
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+ }
+
+.responsive2 {
+  padding: 0 6px;
+  margin-top: 500px;
+  float: left;
+  margin-left: 0px;
+
+ }
+
+
+
 
 
 </style>
@@ -42,33 +84,35 @@ div  {
 
 
 
-
-
-
-
-
 			<!-- This will form the article. Once the pictures have been chosen, the text will hopefully wrap around it. -->
+<div>
 
-	<p> Come check out the incredible deals on guitars and guitar accessories that are for sale! You can find many world class guitars from companies like Gibson, Fender, Gretsch and many more! </p>
+	<img id="Mascis" src="images/Mascis.jpg" width="200" style="border-radius: 50%">
 
+	<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc id sapien id dui posuere elementum sit amet aliquam risus. Suspendisse elementum sapien eu dolor maximus accumsan. Nullam vitae erat augue. Nulla ullamcorper metus non nisi fringilla sodales. Nunc malesuada mauris sit amet magna imperdiet, eu laoreet libero porttitor. Suspendisse quis libero euismod, porta nunc in, pretium felis. Integer laoreet turpis non vulputate sollicitudin. Mauris ullamcorper quis justo nec euismod. Sed tempor sed massa vel posuere. Suspendisse aliquet interdum mi eu laoreet. Sed convallis risus et lacus scelerisque iaculis.</p>
 
-<div class="flex-container">
-  <div>1</div>
-  <div>2</div>
-  <div>3</div> 
-  <div>4</div>
-  <div>5</div> 
-  <div>6</div>
-</div>
+	<p> Vivamus et mi pharetra justo vulputate volutpat sed ut augue. Mauris venenatis massa ut maximus rutrum. Maecenas mattis purus et leo interdum tincidunt. Integer orci elit, tempor ac lacus non, suscipit vestibulum tellus. Sed fringilla ullamcorper est ut efficitur. Vestibulum eget auctor nibh, at varius leo. Nunc a tempus elit. </p>
 
+	<p> Nulla varius, lectus quis pellentesque mattis, tellus leo molestie turpis, mattis hendrerit magna ex sed metus. Sed bibendum nulla nec ultricies pulvinar. Aliquam gravida est eget enim dictum imperdiet in in sapien. Mauris tincidunt auctor lorem, aliquam maximus ipsum facilisis at. Vivamus quis hendrerit felis. Vivamus blandit libero vestibulum venenatis gravida. Vestibulum sollicitudin tortor id dui auctor laoreet. Sed auctor convallis hendrerit.</p>
+</div>	
 
+<div></div>
 
+<table>
+	<tr>
+	<th><img src="images/Gibson.jpg" width="200"></th>
+	<th><img src="images/Fender.jpg" width="100"></th>
+	<th><img src="images/Big Muff.jpg" width="200"></th>
+	</tr>
 	
+	<tr>
+	<td><img src="images/Wah Wah.jpg" width="200"></td>
+	<td><img src="images/Yamaha.jpg" width="200"></td>
+	<td><img src="images/Jaguar.jpg" width="300"></td>
+	</tr>
+</table>
 
-
-
-
-
+</div>				
 </body>
 </html>
 
