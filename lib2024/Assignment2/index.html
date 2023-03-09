@@ -4,12 +4,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+<title>Electric Gears</title>	
+</head>
+
+<meta charset="UTF-8">	
 <style>
 
 table {
   width: 100%;
   margin-top: 20%
-  }
+ }
 
 th, td {
   border: 5px solid;	
@@ -17,9 +21,7 @@ th, td {
 }
 
 p {
-
 	font-family: Arial, sans serif;
-
 }
 
 
@@ -31,13 +33,19 @@ text-align: center;
 margin-bottom: 5%
 }
 
-#Mascis
-   {
+#Mascis {
  shape-outside: circle(50%);
  width: 250px;
  height: 250px;
  float: left;
 
+ }
+
+ #Prince {
+  shape-outside: circle(50%);
+  width: 250px;
+  height: 250px;
+  float: right;
  }
 
 .row {
@@ -69,20 +77,36 @@ margin-bottom: 5%
 
  }
 
+ .watermark {
+    position: relative;
+}
 
+.watermark__inner {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    left: 0px;
+    position: ;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+}
 
-
+.watermark__body {
+    color: rgba(0, 0, 0, 0.1);
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transform: rotate(-45deg);
+    user-select: none;
+}
 
 </style>
 
- .
-</head>
 <body>
 
 	<h1><div>GUITARS AND PEDALS FOR SALE</div></h1>
 	
-
-
 
 			<!-- This will form the article. Once the pictures have been chosen, the text will hopefully wrap around it. -->
 <div>
@@ -94,9 +118,16 @@ margin-bottom: 5%
 	<p> Vivamus et mi pharetra justo vulputate volutpat sed ut augue. Mauris venenatis massa ut maximus rutrum. Maecenas mattis purus et leo interdum tincidunt. Integer orci elit, tempor ac lacus non, suscipit vestibulum tellus. Sed fringilla ullamcorper est ut efficitur. Vestibulum eget auctor nibh, at varius leo. Nunc a tempus elit. </p>
 
 	<p> Nulla varius, lectus quis pellentesque mattis, tellus leo molestie turpis, mattis hendrerit magna ex sed metus. Sed bibendum nulla nec ultricies pulvinar. Aliquam gravida est eget enim dictum imperdiet in in sapien. Mauris tincidunt auctor lorem, aliquam maximus ipsum facilisis at. Vivamus quis hendrerit felis. Vivamus blandit libero vestibulum venenatis gravida. Vestibulum sollicitudin tortor id dui auctor laoreet. Sed auctor convallis hendrerit.</p>
+
+<div class="watermark">
+    <div class="watermark__inner">
+        <div class="watermark__body">Algonquin College</div>
+    </div>
+</div>
+
+	<img id="Prince" src="images/Prince.jpg" width="50" style="border-radius: 20%">
 </div>	
 
-<div></div>
 
 <table>
 	<tr>
@@ -111,6 +142,8 @@ margin-bottom: 5%
 	<td><img src="images/Jaguar.jpg" width="300"></td>
 	</tr>
 </table>
+
+
 
 </div>				
 </body>
