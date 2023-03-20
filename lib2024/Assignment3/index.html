@@ -3,8 +3,8 @@
 
 <!DOCTYPE html>
 <html lang="eng">
-<head>
-<title>The Adorable Cockapoo</title>	
+  <head>
+  <title>The Adorable Cockapoo</title>	
   <meta charset="UTF-8">
   <meta name="description" content="">
   <meta name="keywords" content="">
@@ -15,13 +15,43 @@
 
 <style>
 
+.intro {
+
+border-radius: 40%;
+margin-bottom: 10px;
+
+}
+
+.dog {
+  display: block;
+  shape-outside: circle(50%);
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+h1 {
+
+border-style: groove; 
+border-width: 10px;
+text-align: center;
+font-family: Arial, sans serif;
+margin-bottom: 5%;
+}	
+
 .responsive {
-  width: 25%;
+  width: 35%;
   height: auto;
 }
 
 
+p.one {
+  border-style: solid;
+  border-color: green;
+  width: 100%;
+  text-align: auto;
 
+}
 
 
 </style>
@@ -31,10 +61,16 @@
 
 <body>
 
-<h1>Introducing the adorable Cockapoo!</h1>
 
-<img src="https://www.purina.co.uk/sites/default/files/styles/square_medium_440x440/public/2022-07/Cockapoo-image-1.jpg?h=d92bc211&itok=MI379okK" class="responsive" alt="Cockapoo" width="460" height="345">
+<div class="Intro">
+	<h1>Introducing the adorable Cockapoo!</h1>
+</div>
 
+<img class="Dog" src="https://www.purina.co.uk/sites/default/files/styles/square_medium_440x440/public/2022-07/Cockapoo-image-1.jpg?h=d92bc211&itok=MI379okK" class="responsive" alt="Cockapoo" width="460" height="345" style="border-radius: 40%">
+
+<div id ="container">
+  <div id ="animate"></div>
+</div>
 
 	
 
@@ -85,24 +121,20 @@ c = a + b;
 document.getElementById("demo1").innerHTML = c;
 </script>
 
-<p>Tea Cup Toy Cockapoo
+<p class="one">
+
+    Tea Cup Toy Cockapoo
  <img src="https://cockapoo.me/wp-content/uploads/2018/03/Teacup-Cockapoo-300x297.jpg" alt="Teacup Cockapoo" class="responsive">
- </p>
-
-<p>Toy Cockapoo
+ 
+	Toy Cockapoo
 <img src="https://www.crockettdoodles.com/wp-content/uploads/2022/06/red-curly-cockapoo.jpg" alt="Toy Cockapoo" width="360" height="345" class="responsive">
-</p>
 
-
-<p>Standard Cockapoo
-
+	Standard Cockapoo
 <img src="https://www.pitpat.com/wp-content/uploads/2020/08/Dog_-rights_MS_outdoors_active_walking-on-path-in-woods_cockapoo_meganwilliams-1.jpg" alt="Standard Cockapoo" width="360" height="350" class="responsive">
 
-</p>
+	Maxi Cockapoo
 
-<p>Maxi Cockapoo
-
-<img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2021%2F05%2F18%2Fcockapoo-red-colored-greenery-223686877-2000.jpg" alt="Maxi Cockapoo" width="360" height="345" class="responsive">
+<img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F47%2F2021%2F05%2F18%2Fcockapoo-red-colored-greenery-223686877-2000.jpg" alt="Maxi Cockapoo" width="350" height="345" class="responsive">
 
 </p>
 
